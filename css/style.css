@@ -48,6 +48,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 /* Media query that removes 2 image cards, remaining with 3 when the screen is at a max width of 480px. */
